@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guardian.service", "guardian.service\guardian.service.csproj", "{E63B97F2-1A84-4534-96CE-D44CBA67B275}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DBB79BFB-03DA-48F4-920B-C03CA2713CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guardian.react", "guardian.react\guardian.react.csproj", "{42966526-71DB-4874-A845-5A75518509E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guardian.angular", "guardian.angular\guardian.angular.csproj", "{7CCD2F7A-196B-4A73-B449-2513E6974A86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E63B97F2-1A84-4534-96CE-D44CBA67B275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63B97F2-1A84-4534-96CE-D44CBA67B275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63B97F2-1A84-4534-96CE-D44CBA67B275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63B97F2-1A84-4534-96CE-D44CBA67B275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42966526-71DB-4874-A845-5A75518509E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42966526-71DB-4874-A845-5A75518509E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42966526-71DB-4874-A845-5A75518509E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42966526-71DB-4874-A845-5A75518509E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCD2F7A-196B-4A73-B449-2513E6974A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCD2F7A-196B-4A73-B449-2513E6974A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCD2F7A-196B-4A73-B449-2513E6974A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCD2F7A-196B-4A73-B449-2513E6974A86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42966526-71DB-4874-A845-5A75518509E5} = {DBB79BFB-03DA-48F4-920B-C03CA2713CB4}
+		{7CCD2F7A-196B-4A73-B449-2513E6974A86} = {DBB79BFB-03DA-48F4-920B-C03CA2713CB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B6E250C-038A-47D9-963D-B6F8DC918577}
+	EndGlobalSection
+EndGlobal
